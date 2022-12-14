@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>ROCK MINISTRY BANDUNG</title>
+    <link rel="icon" href="<?= base_url('assets/img/') ?>logorock.png" type="image" sizes="16x16">
     <script src="https://unpkg.com/html5-qrcode"></script>
 
     <!-- Custom styles for this template-->
@@ -11,7 +12,7 @@
 </head>
 <style>
     body {
-        background-image: url('<?= base_url('assets/img/') ?>background.jpg');
+        background-image: url('<?= base_url('assets/img/') ?>Background.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -30,11 +31,11 @@
                             <div class="col-lg">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h5 text-gray-900 mb-4">Selamat datang di Chrismast Celebration Rock Ministry Bandung 2022!</h1>
+                                        <h1 class="h5 text-gray-900 mb-4"><b>Welcome To Christmas Celebration<br>ROCK Ministry Bandung 2022!</b></h1>
                                     </div>
                                     <?= $this->session->flashdata('message'); ?>
                                     <div class="text-center">
-                                        <p class="barcode">Silahkan melakukan scan barcode anda dibawah ini</p>
+                                        <p class="barcode">Silakan Melakukan Scan QR-Code Anda Di Bawah Ini</p>
                                     </div>
                                     <div id="qr-reader" style="width:300px"></div>
                                     <div id="qr-reader-results" name="qr_code"></div>
